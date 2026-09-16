@@ -1,0 +1,14 @@
+{
+  "Faithfulness": {
+    "average_score": 1.0,
+    "n": 2
+  },
+  "Contextual Precision": {
+    "average_score": 0.0,
+    "n": 2
+  },
+  "Answer Correctness [GEval]": {
+    "average_score": 0.1,
+    "n": 2
+  }
+}

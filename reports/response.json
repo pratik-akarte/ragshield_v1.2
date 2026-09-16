@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the retention period?",
+    "expected_answer": "The retention period is 7 years.",
+    "expected_source": "retention_policy.pdf",
+    "response": {
+      "answer": "Demo response for: What is the retention period?",
+      "context": "Demo context",
+      "citations": "demo"
+    }
+  },
+  {
+    "question": "Who can approve a claim?",
+    "expected_answer": "A claim analyst can approve the claim.",
+    "expected_source": "claims_policy.pdf",
+    "response": {
+      "answer": "Demo response for: Who can approve a claim?",
+      "context": "Demo context",
+      "citations": "demo"
+    }
+  }
+]

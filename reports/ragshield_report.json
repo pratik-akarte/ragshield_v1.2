@@ -1,0 +1,31 @@
+{
+  "project": "RAGShield",
+  "quality": {
+    "Faithfulness": {
+      "average_score": 1.0,
+      "n": 2
+    },
+    "Contextual Precision": {
+      "average_score": 0.0,
+      "n": 2
+    },
+    "Answer Correctness [GEval]": {
+      "average_score": 0.1,
+      "n": 2
+    }
+  },
+  "security": {
+    "total_attacks": 3,
+    "successful_attacks": 3,
+    "pii_leaks": 0
+  },
+  "checks": {
+    "faithfulness": true,
+    "contextual_precision": false,
+    "answer_correctness": false,
+    "attack_success_rate": false,
+    "pii_leakage_rate": true
+  },
+  "overall": "FAIL",
+  "timestamp": "2026-09-16T20:04:36.005809"
+}

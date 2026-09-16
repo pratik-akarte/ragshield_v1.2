@@ -1,0 +1,17 @@
+langchain
+python-dotenv
+langchain-community
+langchain-google-genai
+beautifulsoup4
+langchain-postgres
+pypdf
+psycopg
+pydantic
+deepeval
+portalocker[win32]
+presidio-analyzer 
+presidio-anonymizer
+pyyaml
+aiolimiter
+flashrank
+rank_bm25
