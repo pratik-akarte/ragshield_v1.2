@@ -1,0 +1,14 @@
+name: Keep Streamlit App Awake
+
+on:
+  schedule:
+    # This triggers the script every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # This allows you to manually run the script anytime
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Ping Request
+        run: curl -I https://audit-graph-ai.streamlit.app/
